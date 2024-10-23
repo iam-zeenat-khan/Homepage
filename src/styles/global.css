@@ -1,0 +1,26 @@
+/* TailwindCSS Custom Styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #1e3a5f;
+  --accent: #ffc107;
+  --background: #ffffff;
+  --textColor: #343a40;
+}
+
+/* Custom Transitions and Hover Effects */
+.hover-effect {
+  transition: all 0.3s ease-in-out;
+}
+
+.hover-effect:hover {
+  color: var(--primary);
+  background-color: var(--accent);
+}
+
+/* Additional styling for Card components */
+.card-hover:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}

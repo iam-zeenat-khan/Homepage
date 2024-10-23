@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Define the custom theme using CSS variables */
+:root {
+  --primary-color: #1e3a5f;
+  --secondary-color: #f0f4f8;
+  --accent-color: #ffc107;
+  --text-color: #343a40;
+  --bg-color: #ffffff;
+}
+
+/* Apply colors to body */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: all 0.3s ease;
+}
+
+/* Add custom utility classes */
+.bg-bg-color {
+  background-color: var(--bg-color);
+}
+
+.text-text-color {
+  color: var(--text-color);
+}
+
+.bg-primary-color {
+  background-color: var(--primary-color);
+}
+
+.text-accent-color {
+  color: var(--accent-color);
+}
+
+.text-primary-color {
+  color: var(--primary-color);
+}

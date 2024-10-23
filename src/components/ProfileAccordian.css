@@ -1,0 +1,93 @@
+.profile-accordion-container {
+  background-color: #ecd4ea;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+.accordion-item {
+  background-color: #693b69;
+  color: #ffffff;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.accordion-item:hover {
+  transform: scale(1.02);
+}
+
+.accordion-heading {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.expand-icon {
+  color: #ffffff;
+}
+
+.accordion-details {
+  background-color: #a987a8;
+}
+
+.drawer-button {
+  margin-top: 10px;
+  background-color: #511f52;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.drawer-button:hover {
+  background-color: #693b69;
+}
+
+.drawer-content .MuiDrawer-paper {
+  background-color: #ecd4ea;
+  padding: 20px;
+  width: 350px;
+}
+
+.drawer-heading {
+  color: #511f52;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.drawer-section {
+  margin-bottom: 20px;
+}
+
+.drawer-btn {
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.drawer-btn-albums {
+  border-color: #511f52;
+  color: #511f52;
+}
+
+.drawer-btn-albums:hover {
+  background-color: #511f52;
+  color: #ffffff;
+}
+
+.drawer-btn-projects {
+  border-color: #693b69;
+  color: #693b69;
+}
+
+.drawer-btn-projects:hover {
+  background-color: #693b69;
+  color: #ffffff;
+}
+
+.drawer-btn-org {
+  border-color: #511f52;
+  color: #511f52;
+}
+
+.drawer-btn-org:hover {
+  background-color: #511f52;
+  color: #ffffff;
+}
